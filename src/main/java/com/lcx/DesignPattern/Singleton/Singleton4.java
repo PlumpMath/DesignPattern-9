@@ -1,4 +1,4 @@
-package com.lcx.DesignPatten.singleton;
+package com.lcx.DesignPattern.Singleton;
 
 /**
  * 解决无序写入的尝试

@@ -1,4 +1,4 @@
-package com.lcx.DesignPatten.FactoryMethod.calc1;
+package com.lcx.DesignPattern.FactoryMethod.calc1;
 
 import java.util.Scanner;
 

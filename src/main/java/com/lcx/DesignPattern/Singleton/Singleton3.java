@@ -1,4 +1,4 @@
-package com.lcx.DesignPatten.singleton;
+package com.lcx.DesignPattern.Singleton;
 
 /**
  * 双重锁定懒汉式   Java5之后好像就没问题了

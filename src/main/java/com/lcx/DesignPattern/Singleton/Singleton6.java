@@ -1,4 +1,4 @@
-package com.lcx.DesignPatten.singleton;
+package com.lcx.DesignPattern.Singleton;
 
 /**
  * 内部类实现懒汉模式

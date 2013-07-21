@@ -1,4 +1,4 @@
-package com.lcx.DesignPatten.singleton;
+package com.lcx.DesignPattern.Singleton;
 
 public enum Singleton7 {
 	INSTANCE,INSTANCE2;

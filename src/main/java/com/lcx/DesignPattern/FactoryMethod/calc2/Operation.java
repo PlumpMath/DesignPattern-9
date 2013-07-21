@@ -1,4 +1,4 @@
-package com.lcx.DesignPatten.FactoryMethod.calc2;
+package com.lcx.DesignPattern.FactoryMethod.calc2;
 
 /**
  * 运算类
