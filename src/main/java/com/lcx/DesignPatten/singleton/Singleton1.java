@@ -1,4 +1,4 @@
-package com.lcx.DesignPattern.singleton;
+package com.lcx.DesignPatten.singleton;
 
 /**
  * 简单的懒汉模式

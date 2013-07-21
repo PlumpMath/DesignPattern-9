@@ -1,4 +1,4 @@
-package com.lcx.DesignPattern.singleton;
+package com.lcx.DesignPatten.singleton;
 
 /**
  * 饿汉模式的单例
