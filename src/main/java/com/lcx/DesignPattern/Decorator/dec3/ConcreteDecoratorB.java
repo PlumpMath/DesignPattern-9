@@ -1,5 +1,11 @@
 package com.lcx.DesignPattern.Decorator.dec3;
 
+/**
+ * 装饰B <br/>
+ * 继承装饰抽象类
+ * @author 李晨星
+ * @date 2013-7-22 下午3:40:48
+ */
 public class ConcreteDecoratorB extends Decorator {
 	
 	public void operation() {

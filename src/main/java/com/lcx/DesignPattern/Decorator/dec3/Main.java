@@ -13,12 +13,12 @@ package com.lcx.DesignPattern.Decorator.dec3;
 public class Main {
 	public static void main(String[] args) {
 		
-		ConcreteComponent cc = new ConcreteComponent();
-		ConcreteDecoratorA cda = new ConcreteDecoratorA();
-		ConcreteDecoratorB cdb = new ConcreteDecoratorB();
+		ConcreteComponent cc = new ConcreteComponent();	//比如是一个人
+		ConcreteDecoratorA cda = new ConcreteDecoratorA();	//装饰a
+		ConcreteDecoratorB cdb = new ConcreteDecoratorB();	//装饰b
 		
-		cda.setComponent(cc);
-		cdb.setComponent(cda);
+		cda.setComponent(cc);		//用装饰a装饰人
+		cdb.setComponent(cda);	//用装饰b装饰已经装饰了a的人
 		cdb.operation();
 	}
 
