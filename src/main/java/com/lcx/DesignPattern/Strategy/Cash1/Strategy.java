@@ -1,4 +1,4 @@
-package com.lcx.DesignPattern.Strategy.Cash3;
+package com.lcx.DesignPattern.Strategy.Cash1;
 
 public abstract class Strategy {
 	public abstract void algorithmStrategy();

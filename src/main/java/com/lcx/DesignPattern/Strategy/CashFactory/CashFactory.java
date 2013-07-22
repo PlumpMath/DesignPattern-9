@@ -1,4 +1,4 @@
-package com.lcx.DesignPattern.Strategy.Cash;
+package com.lcx.DesignPattern.Strategy.CashFactory;
 
 /**
  * 收费工厂
