@@ -1,8 +1,7 @@
 package com.lcx.DesignPattern.Singleton;
 
 /**
- * 双重锁定懒汉式   Java5之后好像就没问题了
- * @author LCX
+ * 双重检查锁定懒汉式   
  * 由于Java平台内存模型的“无序写”（out-of-order writes）会导致双重检查加锁模式失效
  * 问题在instance = new Singleton3(); 这里做了两个事情：
  * 		1、调用构造方法创建一个Singleton3的实例
@@ -18,6 +17,7 @@ package com.lcx.DesignPattern.Singleton;
  *      线程B返回instance的引用。（问题出现了，这时instance的引用并不是Singleton的实例，因为没有调用构造方法。） 
  * 6、线程B退出，线程A进入。
  * 7、线程A继续调用构造方法，完成instance的初始化，再返回。 
+ * @author LCX
  */
 public class Singleton3 {
 	
@@ -35,7 +35,7 @@ public class Singleton3 {
 				}
 			}
 		}
-		System.out.println("我是双重锁定懒汉式单例！");
+		System.out.println("我是双重检查锁定懒汉式单例！");
 		return instance;
 	}
 }

@@ -1,13 +1,13 @@
 package com.lcx.DesignPattern.Singleton;
 
 /**
- * 同步法懒汉模式
+ * 同步法懒汉模式	<br/>
+ * 加上synchronized了以后保证了线程安全 	<br/>
+ * 但由于每次调用getInstance的时候方法都会被枷锁 <br/>
+ * 而我们只需要在第一次调用getInstance的时候加锁就可以了 <br/>
+ * 这显然影响了我们程序的性能 <br/>
+ * 同步方法可以使性能减少100倍或更高 <br/>
  * @author LCX
- *
- * 加上synchronized了以后保证了线程安全
- * 但由于每次调用getInstance的时候方法都会被枷锁
- * 而我们只需要在第一次调用getInstance的时候加锁就可以了
- * 这显然影响了我们程序的性能
  */
 public class Singleton2 {
 	

@@ -33,6 +33,7 @@ public class Main {
 		socks.decorate(suits);
 		leatherShoes.decorate(socks);
 		leatherShoes.show();
+		person.show();
 		
 	}
 

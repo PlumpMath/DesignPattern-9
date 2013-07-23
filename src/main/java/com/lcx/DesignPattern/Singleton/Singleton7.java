@@ -1,5 +1,10 @@
 package com.lcx.DesignPattern.Singleton;
 
+/**
+ * 枚举方式解决单例
+ * @author 李晨星
+ * @date 2013-7-23 上午9:25:58
+ */
 public enum Singleton7 {
 	INSTANCE,INSTANCE2;
 	private String name;
