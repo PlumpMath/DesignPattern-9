@@ -1,5 +1,10 @@
-package com.lcx.DesignPattern.Builder;
+package com.lcx.DesignPattern.Builder.sample;
 
+/**
+ * 具体建造者类
+ * @author LCX
+ * @date 2013-7-28 上午11:42:27
+ */
 public class ConcreteBuilder1 extends Builder {
 	
 	private Product product = new Product();
