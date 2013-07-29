@@ -20,8 +20,6 @@ public class Main {
 		//发现老板回来了
 		secretary.setAction("老板来了");
 		
-		//通知两个同事
-		secretary.notifyObserver();
 	}
 
 }

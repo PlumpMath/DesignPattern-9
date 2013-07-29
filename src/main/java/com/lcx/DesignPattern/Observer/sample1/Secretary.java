@@ -18,6 +18,7 @@ public class Secretary {
 	}
 	public void setAction(String action) {
 		this.action = action;
+		notifyObserver();
 	}
 	/**
 	 * 增加观察者。就是有几个同事想请前台帮忙，就给List增加几个对象。
