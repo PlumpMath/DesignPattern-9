@@ -1,4 +1,4 @@
-package com.lcx.DesignPattern.AbstractFactory.sample4;
+package com.lcx.DesignPattern.AbstractFactory.sample5;
 
 public class AccessDepartment implements IDepartment {
 
