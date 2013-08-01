@@ -60,5 +60,16 @@ public class GameRole {
 		this.attack = 5;
 		this.denfence = 0;
 	}
+	
+	public RoleStateMemento saveState() {
+		return new RoleStateMemento(healthPoint, manaPoint, attack, denfence);
+	}
+	
+	public void recoeryState(RoleStateMemento memento) {
+		this.healthPoint = memento.getHealthPoint();
+		this.manaPoint = memento.getManaPoint();
+		this.attack = memento.getAttack();
+		this.denfence = memento.getDenfence();
+	}
 
 }

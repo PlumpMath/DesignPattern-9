@@ -12,4 +12,36 @@ public class RoleStateMemento {
 		this.attack = attack;
 		this.denfence = defence;
 	}
+
+	public int getHealthPoint() {
+		return healthPoint;
+	}
+
+	public void setHealthPoint(int healthPoint) {
+		this.healthPoint = healthPoint;
+	}
+
+	public int getManaPoint() {
+		return manaPoint;
+	}
+
+	public void setManaPoint(int manaPoint) {
+		this.manaPoint = manaPoint;
+	}
+
+	public int getAttack() {
+		return attack;
+	}
+
+	public void setAttack(int attack) {
+		this.attack = attack;
+	}
+
+	public int getDenfence() {
+		return denfence;
+	}
+
+	public void setDenfence(int denfence) {
+		this.denfence = denfence;
+	}
 }
